@@ -12,5 +12,6 @@
   </head>
   <body>
   <p>Hello,World !</p>
+  <p>Bienvenue dans le séminaire Jenkins !</p>
   </body>
 </html>
