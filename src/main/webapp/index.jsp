@@ -11,7 +11,7 @@
     <title>Seminaire</title>
   </head>
   <body>
-  <p>Hello,World !</p>
+  <h1>Hello,World !</h1>
   <p>Bienvenue dans le séminaire Jenkins !</p>
   <p>Bienvenue dans le séminaire Jenkins !</p>
   </body>
