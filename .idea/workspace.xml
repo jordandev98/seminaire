@@ -17,6 +17,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/mingw64/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -112,7 +115,7 @@
       <workItem from="1590093063811" duration="824000" />
       <workItem from="1590166499421" duration="85000" />
       <workItem from="1590167652400" duration="3134000" />
-      <workItem from="1590466628726" duration="345000" />
+      <workItem from="1590466628726" duration="1288000" />
     </task>
     <servers />
   </component>
