@@ -19,7 +19,7 @@ sudo a2enmod proxy_http
 
 sudo vim /etc/apache2/sites-available/jenkins.conf
 <VirtualHost *:80>
-	ServerName ec2-100-25-104-2.compute-1.amazonaws.com
+	ServerName ec2-54-157-168-8.compute-1.amazonaws.com
 	ProxyRequests Off
 	<Proxy *>
 		Order deny,allow
@@ -75,3 +75,28 @@ find / -name context.xml
 <user username="admin" password="admin" roles="manager-gui, manager-script, manager-jmx, manager-status"/>
 <user username="deployer" password="deployer" roles="manager-script"/>
 <user username="tomcat" password="s3cret" roles="manager-gui"/>
+
+
+#Ajouter le user deployer dans Jenkins
+
+username : deployer
+password : deployer
+Id : deployer
+
+#Configuration Jenkins
+
+
+Jdk 
+which java
+
+GIT
+which git
+
+Maven
+mvn -version
+
+
+#Configuration de Github
+
+Settings -> webhooks
+http://ec2-54-157-168-8.compute-1.amazonaws.com/github-webhook/
